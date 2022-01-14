@@ -6024,6 +6024,11 @@ mkdirp@^0.5.5, mkdirp@~0.5.1:
   dependencies:
     minimist "^1.2.5"
 
+mobx@^6.3.12:
+  version "6.3.12"
+  resolved "https://registry.yarnpkg.com/mobx/-/mobx-6.3.12.tgz#2ceb4f632081a8bf8757ba7e5e01b5810800022f"
+  integrity sha512-5Hx2IjhBtySVQlSFe+sHczKgOQ+cCyi8hN2wEvWzpJEEMRflQoDzDwJJ+m7SBWBQhfrWMWb1RGZNk4X1XtxJkQ==
+
 ms@2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.0.0.tgz#5608aeadfc00be6c2901df5f9861788de0d597c8"

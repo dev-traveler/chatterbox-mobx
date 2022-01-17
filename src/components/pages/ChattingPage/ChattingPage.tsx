@@ -1,8 +1,8 @@
 import React from "react";
-import Stack from "../../element/Stack";
-import ChatHeader from "../../organism/ChatHeader";
-import ChatContents from "../../organism/ChatContents";
-import ChatFooter from "../../organism/ChatFooter";
+import Stack from "components/elements/Stack";
+import ChatHeader from "components/organisms/ChatHeader";
+import ChatContents from "components/organisms/ChatContents";
+import ChatFooter from "components/organisms/ChatFooter";
 
 function ChattingPage() {
   return (

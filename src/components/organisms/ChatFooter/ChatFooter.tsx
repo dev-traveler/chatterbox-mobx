@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import useStores from "hooks/useStores";
-import Stack from "components/element/Stack";
-import TextField from "components/element/TextField";
+import Stack from "components/elements/Stack";
+import TextField from "components/elements/TextField";
 import Message from "model/Message";
 
 function ChatFooter() {

@@ -1,5 +1,5 @@
 import React from "react";
-import Stack from "../../element/Stack";
+import Stack from "components/elements/Stack";
 
 function ChatHeader() {
   return (

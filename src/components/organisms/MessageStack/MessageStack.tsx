@@ -7,7 +7,7 @@ import { IMessage } from "model/Message";
 function MessageStack(props: MessageStackProps): JSX.Element {
   const { text } = props.message;
   return (
-    <Stack direction="row" spacing={1}>
+    <Stack direction="row" spacing={1} sx={{ mt: 1 }}>
       <TextBubble text={text} />
       <CreatedTime />
     </Stack>

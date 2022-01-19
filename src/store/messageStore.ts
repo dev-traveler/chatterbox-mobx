@@ -1,6 +1,6 @@
 import { makeAutoObservable, observable } from "mobx";
-import { IMessage } from "../model/Message";
-import { IRootStore } from "./rootStore";
+import { IRootStore } from "store/rootStore";
+import { IMessage } from "model/Message";
 
 class MessageStore implements IMessageStore {
   rootStore: IRootStore;

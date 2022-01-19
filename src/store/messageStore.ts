@@ -6,7 +6,6 @@ class MessageStore implements IMessageStore {
   rootStore: IRootStore;
 
   messages: IMessage[] = [];
-  readTs = 0;
 
   constructor(rootStore: IRootStore) {
     this.rootStore = rootStore;
@@ -23,7 +22,6 @@ class MessageStore implements IMessageStore {
 
 export interface IMessageStore {
   messages: IMessage[];
-  readTs: number;
   add(messages: IMessage): void;
 }
 

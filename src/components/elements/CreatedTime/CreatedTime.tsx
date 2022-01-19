@@ -11,7 +11,7 @@ function CreatedTime(props: CreatedTimeProps): JSX.Element {
   return (
     <Stack sx={{ justifyContent: "flex-end" }}>
       <Box sx={{ mb: "4px" }}>
-        <Typography variant={'caption'}>{createdTime}</Typography>
+        <Typography variant="caption">{createdTime}</Typography>
       </Box>
     </Stack>
   );

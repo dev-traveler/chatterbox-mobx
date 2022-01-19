@@ -1,13 +1,18 @@
 import React from "react";
 import Stack from "components/elements/Stack";
+import Avatar from "components/elements/Avatar";
 import TextBubble from "components/bubbles/TextBubble";
 import CreatedTime from "components/elements/CreatedTime";
 import { IMessage } from "model/Message";
 
 function MessageStack(props: MessageStackProps): JSX.Element {
   const { text, createdTs } = props.message;
+
   return (
     <Stack direction="row" spacing={1} sx={{ mt: 1 }}>
+      <Stack sx={{ justifyContent: "center" }}>
+        <Avatar />
+      </Stack>
       <TextBubble text={text} />
       <CreatedTime createdTs={createdTs} />
     </Stack>

@@ -1,5 +1,6 @@
 import React from "react";
 import Box from "components/elements/Box";
+import Typography from "components/elements/Typography";
 
 function TextBubble(props: TextBubbleProps): JSX.Element {
   return (
@@ -8,11 +9,11 @@ function TextBubble(props: TextBubbleProps): JSX.Element {
         p: 2,
         border: "1px solid black",
         borderRadius: 2,
-        backgroundColor: 'white',
+        backgroundColor: "white",
         maxWidth: "min(60vw, 500px)",
       }}
     >
-      {props.text}
+      <Typography>{props.text}</Typography>
     </Box>
   );
 }

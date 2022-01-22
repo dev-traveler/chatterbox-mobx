@@ -27,7 +27,7 @@ function MessageStack(props: MessageStackProps): JSX.Element {
   const isSameTimeWithNext = nextMsgCreatedTime === currMsgCreatedTime;
 
   return (
-    <Stack direction="row" spacing={1} sx={{ mt: isSameTimeWithPrev ? '2px' : '10px' }}>
+    <Stack direction="row" spacing={1} sx={{ mt: isSameTimeWithPrev ? '2px' : '6px' }}>
       <Stack
         sx={{
           justifyContent: "center",

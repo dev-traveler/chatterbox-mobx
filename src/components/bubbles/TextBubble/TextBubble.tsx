@@ -6,7 +6,8 @@ function TextBubble(props: TextBubbleProps): JSX.Element {
   return (
     <Box
       sx={{
-        p: 2,
+        py: 1,
+        px: 2,
         border: "1px solid black",
         borderRadius: 2,
         backgroundColor: "white",
